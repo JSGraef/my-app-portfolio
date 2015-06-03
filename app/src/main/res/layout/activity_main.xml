@@ -14,7 +14,7 @@
     <Button
         android:layout_width="fill_parent"
         android:layout_height="60dp"
-        android:text="Spotify Streamer"
+        android:text="@string/SpotifyStreamer"
         android:id="@+id/btnSpotifyStreamer"
         android:onClick="onBtnClick"
         android:layout_below="@+id/textView"
@@ -24,7 +24,7 @@
     <Button
         android:layout_width="fill_parent"
         android:layout_height="60dp"
-        android:text="Scores App"
+        android:text="@string/ScoresApp"
         android:id="@+id/btnScoresApp"
         android:layout_below="@+id/btnSpotifyStreamer"
         android:onClick="onBtnClick"
@@ -33,7 +33,7 @@
     <Button
         android:layout_width="fill_parent"
         android:layout_height="60dp"
-        android:text="Library App"
+        android:text="@string/LibraryApp"
         android:id="@+id/btnLibraryApp"
         android:layout_below="@+id/btnScoresApp"
         android:onClick="onBtnClick" />
@@ -41,7 +41,7 @@
     <Button
         android:layout_width="fill_parent"
         android:layout_height="60dp"
-        android:text="Build It Bigger"
+        android:text="@string/BuildItBigger"
         android:id="@+id/btnBuildItBigger"
         android:layout_below="@+id/btnLibraryApp"
         android:onClick="onBtnClick"
@@ -50,7 +50,7 @@
     <Button
         android:layout_width="fill_parent"
         android:layout_height="60dp"
-        android:text="XYZ Reader"
+        android:text="@string/XYZReader"
         android:id="@+id/btnXYZReader"
         android:onClick="onBtnClick"
         android:layout_below="@+id/btnBuildItBigger"
@@ -59,7 +59,7 @@
     <Button
         android:layout_width="fill_parent"
         android:layout_height="60dp"
-        android:text="Capstone Project"
+        android:text="@string/CapstoneProject"
         android:id="@+id/btnCapstone"
         android:layout_below="@+id/btnXYZReader"
         android:onClick="onBtnClick"
